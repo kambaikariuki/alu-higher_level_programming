@@ -1,13 +1,8 @@
 #!/usr/bin/python3
-import hidden_4
-
-
-def discovr():
-    name = dir(hidden_4)
-    for i in name:
-        if i[:2] != '__':
-            print("{:s}".format(i))
-
-
-if __name__ == "__main__":
-    discovr()
+if __name__ == '__main__':
+    import sys
+    summation = 0
+    argument_list = sys.argv[1:]
+    for argument in argument_list:
+        summation += int(argument)
+    print("{}".format(summation))
