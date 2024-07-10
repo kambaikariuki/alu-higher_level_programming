@@ -2,6 +2,8 @@
 ''' Defines class square
 
 '''
+
+
 class Square:
     '''Class Square
     '''
