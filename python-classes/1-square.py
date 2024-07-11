@@ -3,6 +3,7 @@
 Defines a square based on 0-square.py
 '''
 
+
 class Square:
     '''
 Defines a square based on 0-square.py
