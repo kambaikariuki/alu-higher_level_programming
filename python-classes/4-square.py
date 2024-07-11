@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 '''
-Class square defined by instantiation with optional size
+Square that defines a square by: (based on 3-square.py)
+
+Private instance attribute: size:
+property def size(self): to retrieve it
+property setter def size(self, value): to set it
 '''
 
 
