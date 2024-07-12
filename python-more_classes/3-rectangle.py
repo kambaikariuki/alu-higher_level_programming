@@ -42,6 +42,12 @@ class Rectangle:
             return ((self.__height + self.__width) * 2)
 
     def __str__(self):
-        if self.__width != 0 and self.__height != 0:
-            return ""
-        return "\n".join("#" * self.__width for _ in range(self.__height))
+        """Creates a new string object from the given object
+        """
+        s = ''
+        if self.__width > 0 and self.__height > 0:
+            for _ in range(self.__height):
+                for _ in range(self.__width):
+                    s += '#'
+                s += '\n'
+        return s[: -1]
