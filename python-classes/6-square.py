@@ -1,18 +1,18 @@
 #!/usr/bin/python3
-'''
-Initialize Class Square
-
-position should be use by using space - Dont fill lines by spaces when position[1] > 0
+'''Initialize Class Square
 '''
 
 
 class Square:
-    '''Inisialize Class Square
+    '''Initialize Class Square
     '''
 
     def __init__(self, size=0, position=(0, 0)):
+        '''init method of class Square
+        '''
         self.size = size
         self.position = position
+
 
     @property
     def size(self):
@@ -28,3 +28,12 @@ class Square:
 
     def area(self):
         return (self.size * self.size)
+
+    def my_print(self):
+        if self.__size == 0:
+            print()
+            return
+        for i in range(self.__size):
+            for j in range(self.__size):
+                print("#", end="")
+            print()
