@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-import json
 """
-creates an object from a "JSON file".
+creates an object from a "JSON file"
 """
 
+
+import json
 
 def load_from_json_file(filename):
     '''
