@@ -10,6 +10,5 @@ if (isNaN(x)) {
       string += 'X';
     }
     console.log(string);
-    }
+  }
 }
-

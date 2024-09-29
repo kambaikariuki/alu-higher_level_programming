@@ -4,5 +4,5 @@ const myObject = {
   value: 12
 };
 console.log(myObject);
-Object.defineProperty(myObject, 'value', { value: 89});
+Object.defineProperty(myObject, 'value', { value: 89 });
 console.log(myObject);
